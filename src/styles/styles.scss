@@ -1,0 +1,32 @@
+@import './bootstrap-custom.scss';
+
+@mixin border_guide {
+  box-shadow: inset 0px 0px 0px 0.5px #e0e0e0;
+}
+
+div,
+li,
+a,
+ul,
+section {
+  @include border_guide;
+}
+
+.homemade-container-sm {
+  padding: 0 12px;
+  @include media-breakpoint-up(sm) {
+    max-width: 540px;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 720px;
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 960px;
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: 1140px;
+  }
+  @include media-breakpoint-up(xxl) {
+    max-width: 1320px;
+  }
+}
