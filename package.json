@@ -37,10 +37,15 @@
     "gatsby-plugin-image": "3.13.1",
     "gatsby-plugin-pnpm": "1.2.10",
     "gatsby-plugin-sass": "6.13.1",
+    "gatsby-plugin-sharp": "5.13.1",
+    "gatsby-source-filesystem": "5.13.1",
+    "gatsby-transformer-sharp": "5.13.1",
     "node-sass": "9.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-image-lightbox": "5.1.4",
     "sass": "1.77.1",
+    "styled-components": "6.1.11",
     "tsconfig-paths-webpack-plugin": "4.0.1"
   },
   "devDependencies": {

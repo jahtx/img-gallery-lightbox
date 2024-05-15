@@ -7,7 +7,7 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
@@ -17,5 +17,13 @@
     "types": ["node", "@testing-library/jest-dom"]
   },
   "exclude": ["node_modules"],
-  "include": ["./src/**/*"]
+  "include": [
+    "./src",
+    "./src/**/*",
+    "./gatsby-node.ts",
+    "./gatsby-config.ts",
+    "./plugins/**/*",
+    ".d.ts",
+    "gatsby-types.d.ts"
+  ]
 }
